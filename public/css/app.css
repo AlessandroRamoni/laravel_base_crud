@@ -106,3 +106,12 @@ h1 {
     color: #c19261;
 
 }
+
+.contenitore_singolo {
+    height: 100vh;
+    background-color: #c19261;
+}
+
+.contenitore_singolo p {
+    color: red;
+}
