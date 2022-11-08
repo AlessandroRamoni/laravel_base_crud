@@ -14,6 +14,7 @@
 
 <body>
 
+
     <h1>Benvenuto nel nostro store</h1>
     {{-- @dump($comics); --}}
     <div class="contenitore_homepage">
@@ -27,6 +28,7 @@
             </ul>
         </div>
     </div>
+
 </body>
 
 </html>
