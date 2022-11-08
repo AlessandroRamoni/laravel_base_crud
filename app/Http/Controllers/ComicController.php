@@ -15,6 +15,8 @@ class ComicController extends Controller
     public function index()
     {
         //
+        $comics = Comic::all();
+        return views('comics.index', compact('comics'));
     }
 
     /**
