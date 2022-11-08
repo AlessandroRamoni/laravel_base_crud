@@ -110,6 +110,30 @@ h1 {
 
 .contenitore_homepage .links ul li a:hover {
     color: rgb(201, 91, 2);
+    transform: rotate(45deg);
+    animation: color 5s linear infinite;
+
+    @keyframes color {
+        25% {
+            color: red;
+        }
+
+        50% {
+            color: green;
+        }
+
+        75% {
+            color: red;
+        }
+
+        90% {
+            color: rgb(240, 220, 38);
+        }
+
+        100% {
+            color: red;
+        }
+    }
 }
 
 .contenitore_homepage .links ul li span {
