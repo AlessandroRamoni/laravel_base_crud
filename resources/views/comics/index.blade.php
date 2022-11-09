@@ -25,7 +25,7 @@
                             <- clicca qui</span>
                     </li>
 
-                    <form methood="POST" action="{{ route('comics.destroy', $comic->id) }}">
+                    <form method="POST" action="{{ route('comics.destroy', $comic->id) }}">
                         @csrf
                         @method('DELETE')
                         <input class="delete-btn" type="submit" value="Elimina">

@@ -144,9 +144,9 @@ h1 {
 
 .contenitore_homepage .links form input {
     margin-left: 20px;
-    padding: 5px;
+    padding: 3px;
     color: rgb(231, 60, 60);
-    font-size: 0.8em;
+    font-size: 0.6em;
     border: 1px solid rgb(231, 60, 60);
     cursor: pointer;
 }
