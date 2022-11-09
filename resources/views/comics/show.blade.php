@@ -14,13 +14,19 @@
 
 <body>
     <div class="contenitore_singolo">
-        <h1>{{ $comic->title }}</h1>
+        <a href="http://127.0.0.1:8000/">
+            < Torna alla Homepage</a>
+                <h1>{{ $comic->title }}</h1>
 
-        <div class="contenitore_immagine">
-            <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
-        </div>
+                <div class="contenitore_immagine">
+                    <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
+                </div>
 
-        <p>{{ $comic->description }}</p>
+                <p id="prezzo">Prezzo: {{ $comic->price }}</p>
+
+                <p>{{ $comic->description }}</p>
+
+
     </div>
 
     <div>
