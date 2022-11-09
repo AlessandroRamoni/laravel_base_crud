@@ -102,6 +102,8 @@ h1 {
     padding: 10px 0px;
     margin-left: 30px;
     font-size: 1.2em;
+    border-bottom: 1px solid black;
+    position: relative;
 
 }
 
@@ -149,13 +151,31 @@ h1 {
     font-size: 0.6em;
     border: 1px solid rgb(231, 60, 60);
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-20%, 50%);
 }
 
 /* SHOW */
 
 .contenitore_singolo {
-    height: 100vh;
+    height: 95vh;
     background-color: #c19261;
+}
+
+.contenitore_singolo a {
+    color: #26263c;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contenitore_singolo #prezzo {
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .contenitore_singolo .contenitore_immagine {
@@ -180,6 +200,7 @@ h1 {
 .contenitore_singolo p {
     color: #83494e;
     padding-top: 20px;
+    font-size: 1.1em;
 }
 
 .contenitore_form {
