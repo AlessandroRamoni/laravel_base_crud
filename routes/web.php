@@ -17,4 +17,6 @@ Route::get('/', function () {
     return redirect()-> route('comics.index');
 });
 
+// Route::get('test', 'TestController@index')->name('test');
+
 Route::resource('comics', 'ComicController');

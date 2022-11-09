@@ -16,7 +16,7 @@
     <div class="contenitore_singolo">
         <h1>{{ $comic->title }}</h1>
 
-        <div>
+        <div class="contenitore_immagine">
             <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
         </div>
 
