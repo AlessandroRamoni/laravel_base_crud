@@ -24,7 +24,7 @@
     </div>
 
     <div>
-        <a href="{{ route('comics.edit', $comic->id) }}">Edita</a>
+        <a href="{{ route('comics.edit', $comic->id) }}">Modifica fumetto</a>
     </div>
 
 </body>
