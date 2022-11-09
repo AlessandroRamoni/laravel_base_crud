@@ -23,14 +23,12 @@
                 @foreach ($comics as $comic)
                     <li><a href="{{ route('comics.show', $comic->id) }}"> {{ $comic->title }} </a> <span>
                             <- clicca qui</span>
+                                <form method="POST" action="{{ route('comics.destroy', $comic->id) }}">
+                                    @csrf
+                                    @method('DELETE')
+                                    <input class="delete-btn" type="submit" value="Elimina">
+                                </form>
                     </li>
-
-                    <form method="POST" action="{{ route('comics.destroy', $comic->id) }}">
-                        @csrf
-                        @method('DELETE')
-                        <input class="delete-btn" type="submit" value="Elimina">
-
-                    </form>
                 @endforeach
             </ul>
         </div>
