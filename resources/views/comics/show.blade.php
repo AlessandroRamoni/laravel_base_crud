@@ -22,6 +22,11 @@
 
         <p>{{ $comic->description }}</p>
     </div>
+
+    <div>
+        <a href="{{ route('comics.edit', $comic->id) }}">Edita</a>
+    </div>
+
 </body>
 
 </html>
