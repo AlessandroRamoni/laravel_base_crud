@@ -164,6 +164,10 @@ h1 {
     background-color: #c19261;
 }
 
+.modifica {
+    height: 5vh;
+}
+
 .contenitore_singolo a {
     color: #26263c;
     padding-left: 10px;
@@ -179,7 +183,7 @@ h1 {
 }
 
 .contenitore_singolo .contenitore_immagine {
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
 }
 

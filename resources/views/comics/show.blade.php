@@ -29,7 +29,7 @@
 
     </div>
 
-    <div>
+    <div class="modifica">
         <a href="{{ route('comics.edit', $comic->id) }}">Modifica fumetto</a>
     </div>
 
