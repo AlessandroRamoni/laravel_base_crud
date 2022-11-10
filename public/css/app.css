@@ -204,6 +204,8 @@ h1 {
 .contenitore_singolo p {
     color: #83494e;
     padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 1.1em;
 }
 
