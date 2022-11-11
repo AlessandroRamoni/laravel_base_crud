@@ -86,11 +86,11 @@ body {
 }
 
 h1 {
-    color: #69585F;
-    font-size: 2em;
+    color: #3a3135;
+    font-size: 2.2em;
     font-weight: 800;
     text-align: center;
-    padding: 10px 0px;
+    padding: 20px 0px 40px 0px;
 }
 
 .contenitore_homepage {
@@ -171,7 +171,6 @@ h1 {
 .contenitore_singolo a {
     color: #26263c;
     padding-left: 10px;
-    padding-top: 10px;
 }
 
 .contenitore_singolo #prezzo {
@@ -232,4 +231,17 @@ h1 {
 
 .contenitore_form #crea input {
     padding: 10px;
+}
+
+
+.aggiungi_nuovo {
+    display: inline-block;
+    color: rgb(81, 255, 0);
+    border: 1px solid rgb(81, 255, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.aggiungi_nuovo a {
+    padding: 10px
 }
