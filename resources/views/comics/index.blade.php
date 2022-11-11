@@ -14,6 +14,9 @@
 
 <body>
 
+    <div class="aggiungi_nuovo">
+        <a href="{{ route('comics.create') }}">Aggiungi nuovo</a>
+    </div>
 
     <h1>Benvenuto nel nostro store</h1>
     {{-- @dump($comics); --}}
